@@ -1,0 +1,28 @@
+# Dependencies and builds
+node_modules/
+dist/
+build/
+coverage/
+.firebase/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*serviceAccount*.json
+
+# Local source material and model caches
+.local/
+private-data/
+models/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+
+# Editor and OS files
+.DS_Store
+*.log
